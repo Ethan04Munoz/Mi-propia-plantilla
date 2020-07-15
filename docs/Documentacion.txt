@@ -1,0 +1,21 @@
+Esta plantilla yo la hice para hacer mi primer portafolio mientras aprendo un poco.
+
+Cuenta con modo oscuro, algunos efectos hover y es responsive.
+También tiene una barra de contacto.
+
+El proyecto tiene una carpeta con muchos favicons para elegir, entre ellos 3 de informatica y un perro, basta cambiar la ruta del favicon en el archivo
+index.html para cambiar de favicon.
+
+La imagen es de muestra y puede ser cambiada por cualquier otra.
+
+Los archivos css estan es una carpeta de css, los de javascrpit en js, las immagenes en img y los favicons en favicon.
+
+Index.html es el unico archivo en la carpeta raíz.
+
+Todo es responsive, para bajar más la barra de contacto en tipo celular una vez que se añada más contenido, basta con ir al archivo:
+css/responsive.css
+y ir a la linea 9,31 y 168 y aumentar el numero de pixeles en 
+
+.barralateral{
+    top: 800px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomar valores de un input</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Barra lateral estilos necesarios.css">
+    <link rel="stylesheet" href="css/menu arriba.css">
+    <link rel="stylesheet" href="css/cambiocolor.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="favicon/compu.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="menu-responsive">
+        <div class="left"> <img class="imgperfil" src="img/rperfil.jpg" alt="Imagen del perfil"> Ethan Muñoz López</div>
+        <div class="trabajos">
+            <a href="">
+                <div class="habilidad"> </div>
+            </a>
+            <a href="#tamum">
+                <!--Aquí van los enlaces que llevan a alguna sección de la
+                     página, en el href se pone su id y en el div el texto-->
+                <div class="habilidad"></div>
+            </a>
+            <a href="">
+                <div class="habilidad">De momento esta seccion esta vacia</div>
+            </a>
+            <a href="">
+                <div class="habilidad"></div>
+            </a>
+        </div>
+        <!--Este div es el contenedor de el apagador de modo oscuro-->
+        <div class="color">
+            <div class="contenedorcambios">
+                <p class="small">¿Demasiado claro?</p>
+                <label class="interruptor" for="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <!--Para la bola del interruptor se usa un ::before-->
+                    <div class="botoninterruptor"></div>
+                </label>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="barralateral">
+        <div>
+            <img class="imgbarralateral" src="img/rperfil.jpg" alt="Imagen del perfil" />
+        </div>
+        <div>
+            <h1 class="titulolateral">Ethan Muñoz López</h1>
+        </div>
+        <div class="centrardatos">
+            <p class="textoexplicacion">Datos de contacto:</p>
+            <p class="textoexplicacion">Celular: +52 33 2046 8386 </p>
+            <p class="textoexplicacion correo">Correo: ethanmunozlopez04@gmail.com </p>
+        </div>
+        <!--mailto: se usa para que envie a las personas a escribir un correo a la direccion colocada-->
+        <a class="enlaceboton" target="_blank" href="mailto:ethanmunozlopez04@gmail.com">
+            <div class="contactameboton">
+                ¡Contactame!
+            </div>
+        </a>
+    </div>
+    <div class="trabajoscontenedor">
+        <h1 id="tamum" class="titulotrabajo">Titulo</h1>
+
+        <p class="textoexplicacion">Aquí se escribe la explicación sobre el trabajo</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="js/cambio de color.js"></script>
+
+</body>
+
+</html>
